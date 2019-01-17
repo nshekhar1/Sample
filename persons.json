@@ -1,0 +1,5 @@
+[
+{"firstname":"Nasri 0","lastname":"Omar 1","adress":{"zipcode":1,"country":"France"}},
+{"firstname":"Nasri 1","lastname":"Omar 2","adress":{"zipcode":2,"country":"France"}},
+{"firstname":"Nasri 2","lastname":"Omar 3","adress":{"zipcode":3,"country":"France"}}
+]
