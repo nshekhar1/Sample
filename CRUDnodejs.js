@@ -1,7 +1,7 @@
 	var mongodb = require('mongodb');
 	var MongoClient = require('mongodb').MongoClient;
 	var assert = require('assert');
-	var url = 'mongodb://localhost:27017/db';
+	var url = 'mongodb://40.77.29.87/meandb';
 	var express = require('express');
 	var app = express();
 	var application_root = __dirname;
