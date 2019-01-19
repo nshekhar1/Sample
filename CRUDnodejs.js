@@ -1,7 +1,7 @@
 	var mongodb = require('mongodb');
 	var MongoClient = require('mongodb').MongoClient;
 	var assert = require('assert');
-	var url = 'mongodb://40.77.29.87/meandb';
+	var url = 'mongodb://https://mongodbsample.documents.azure.com:443/db';
 	var express = require('express');
 	var app = express();
 	var application_root = __dirname;
@@ -122,9 +122,9 @@
 	});
 	
 	//create our server that listening at 127.0.0.1:8081
-	server.listen(8081, function () {
-	  var host = server.address().address
-	  var port = server.address().port
-	  console.log("Example app listening at http://%s:%s", host, port)
-	});  
+	//server.listen(8081, function () {
+	//  var host = server.address().address
+	//  var port = server.address().port
+	//  console.log("Example app listening at http://%s:%s", host, port)
+	//});  
  
