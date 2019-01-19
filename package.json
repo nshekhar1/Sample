@@ -4,6 +4,7 @@
   "description": "",
   "main": "ApplicationCRUD.js",
   "dependencies": {
+    "browsify": "0.0.4",
     "express": "^4.16.4",
     "http-server": "^0.11.1",
     "mongodb": "^2.2.33"
