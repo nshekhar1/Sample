@@ -1,7 +1,7 @@
 ﻿appIndex.factory('DataService', ['$http', function ($http) {
 
     var getPersons = function () {
-        return $http.get("http://127.0.0.1:8081/getPersons");
+        return $http.get("https://mongodbsample.documents.azure.com:443/getPersons");
     }
     var addPerson = function (obj) {
         var data = angular.copy(obj);
@@ -12,7 +12,7 @@
         var config = {
             params: parameters
         };
-        return $http.get("http://127.0.0.1:8081/addPerson", config);
+        return $http.get("https://mongodbsample.documents.azure.com:443/addPerson", config);
     }    
     var editPerson = function (obj) {
         //removed the $$hashKey properties
@@ -23,7 +23,7 @@
         var config = {
             params: parameters
         };
-        return $http.get("http://127.0.0.1:8081/updatePerson", config);
+        return $http.get("https://mongodbsample.documents.azure.com:443/", config);
     }
     var deletePerson = function (id) {
         var parameters = {
@@ -32,7 +32,7 @@
         var config = {
             params: parameters
         };
-        return $http.get("http://127.0.0.1:8081/removePerson", config);
+        return $http.get("https://mongodbsample.documents.azure.com:443/", config);
     }
     
     return {
