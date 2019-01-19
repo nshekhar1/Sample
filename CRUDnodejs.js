@@ -1,7 +1,7 @@
-	var mongodb = require('mongodb');
+	//var mongodb = require('mongodb');
 	var MongoClient = require('mongodb').MongoClient;
 	var assert = require('assert');
-	var url = 'mongodb://https://mongodbsample.documents.azure.com:443/db';
+	var url = 'https://mongodbsample.documents.azure.com:443/db';
 	var express = require('express');
 	var app = express();
 	var application_root = __dirname;
